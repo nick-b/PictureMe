@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TouchCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TouchCameraAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		8726C17C0F746AA700E5D0F8 /* libcv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C1760F746AA700E5D0F8 /* libcv.a */; };
+		8726C17D0F746AA700E5D0F8 /* libcvaux.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C1770F746AA700E5D0F8 /* libcvaux.a */; };
+		8726C17E0F746AA700E5D0F8 /* libcxcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C1780F746AA700E5D0F8 /* libcxcore.a */; };
+		8726C1800F746AA800E5D0F8 /* libml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C17A0F746AA700E5D0F8 /* libml.a */; };
+		8726C1B20F746EB500E5D0F8 /* UIDeviceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726C1A80F746EB500E5D0F8 /* UIDeviceAdditions.m */; };
+		8726C1B30F746EB500E5D0F8 /* UIImageOpenCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726C1AB0F746EB500E5D0F8 /* UIImageOpenCV.m */; };
+		8726C1B40F746EB500E5D0F8 /* UIImageResizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726C1AD0F746EB500E5D0F8 /* UIImageResizing.m */; };
+		8726C1D30F74700200E5D0F8 /* libstdc++.6.0.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C1D20F74700200E5D0F8 /* libstdc++.6.0.4.dylib */; };
+		8726C2F70F7535C900E5D0F8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8726C2F60F7535C900E5D0F8 /* Icon.png */; };
+		8726C3D60F75458E00E5D0F8 /* Saving.png in Resources */ = {isa = PBXBuildFile; fileRef = 8726C3D50F75458E00E5D0F8 /* Saving.png */; };
+		8726C46A0F75540800E5D0F8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C4690F75540800E5D0F8 /* AudioToolbox.framework */; };
+		8726C4C90F75BF2900E5D0F8 /* haarcascade_frontalface_alt2.xml.gz in Resources */ = {isa = PBXBuildFile; fileRef = 8726C4C80F75BF2900E5D0F8 /* haarcascade_frontalface_alt2.xml.gz */; };
+		8726C4CC0F75BF4700E5D0F8 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C4CB0F75BF4700E5D0F8 /* libz.1.2.3.dylib */; };
+		8726C6420F75ED0C00E5D0F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C6410F75ED0C00E5D0F8 /* SystemConfiguration.framework */; };
+		8726C6440F75ED0C00E5D0F8 /* libsqlite3.0.8.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C6430F75ED0C00E5D0F8 /* libsqlite3.0.8.6.dylib */; };
+		8726C6490F75ED1B00E5D0F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8726C6480F75ED1B00E5D0F8 /* CoreLocation.framework */; };
+		876782540F81A21E0025D347 /* PictureMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 876782530F81A21E0025D347 /* PictureMeController.m */; };
+		876782830F81A8060025D347 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 876782820F81A8060025D347 /* Default.png */; };
+		87BE9C5F0F6882AD0018340B /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BE9C5E0F6882AD0018340B /* CameraController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TouchCameraAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchCameraAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TouchCameraAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchCameraAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Picture Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picture Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TouchCamera_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchCamera_Prefix.pch; sourceTree = "<group>"; };
+		8726C1680F746AA700E5D0F8 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cv.h; path = Libraries/opencv/cv.h; sourceTree = "<group>"; };
+		8726C1690F746AA700E5D0F8 /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvaux.h; path = Libraries/opencv/cvaux.h; sourceTree = "<group>"; };
+		8726C16A0F746AA700E5D0F8 /* cvaux.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvaux.hpp; path = Libraries/opencv/cvaux.hpp; sourceTree = "<group>"; };
+		8726C16B0F746AA700E5D0F8 /* cvcompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvcompat.h; path = Libraries/opencv/cvcompat.h; sourceTree = "<group>"; };
+		8726C16C0F746AA700E5D0F8 /* cvmat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvmat.hpp; path = Libraries/opencv/cvmat.hpp; sourceTree = "<group>"; };
+		8726C16D0F746AA700E5D0F8 /* cvstreams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvstreams.h; path = Libraries/opencv/cvstreams.h; sourceTree = "<group>"; };
+		8726C16E0F746AA700E5D0F8 /* cvtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvtypes.h; path = Libraries/opencv/cvtypes.h; sourceTree = "<group>"; };
+		8726C16F0F746AA700E5D0F8 /* cvver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvver.h; path = Libraries/opencv/cvver.h; sourceTree = "<group>"; };
+		8726C1700F746AA700E5D0F8 /* cvvidsurv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cvvidsurv.hpp; path = Libraries/opencv/cvvidsurv.hpp; sourceTree = "<group>"; };
+		8726C1710F746AA700E5D0F8 /* cxcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxcore.h; path = Libraries/opencv/cxcore.h; sourceTree = "<group>"; };
+		8726C1720F746AA700E5D0F8 /* cxcore.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = cxcore.hpp; path = Libraries/opencv/cxcore.hpp; sourceTree = "<group>"; };
+		8726C1730F746AA700E5D0F8 /* cxerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxerror.h; path = Libraries/opencv/cxerror.h; sourceTree = "<group>"; };
+		8726C1740F746AA700E5D0F8 /* cxmisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxmisc.h; path = Libraries/opencv/cxmisc.h; sourceTree = "<group>"; };
+		8726C1750F746AA700E5D0F8 /* cxtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cxtypes.h; path = Libraries/opencv/cxtypes.h; sourceTree = "<group>"; };
+		8726C1760F746AA700E5D0F8 /* libcv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcv.a; path = Libraries/opencv/libcv.a; sourceTree = "<group>"; };
+		8726C1770F746AA700E5D0F8 /* libcvaux.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcvaux.a; path = Libraries/opencv/libcvaux.a; sourceTree = "<group>"; };
+		8726C1780F746AA700E5D0F8 /* libcxcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcxcore.a; path = Libraries/opencv/libcxcore.a; sourceTree = "<group>"; };
+		8726C17A0F746AA700E5D0F8 /* libml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libml.a; path = Libraries/opencv/libml.a; sourceTree = "<group>"; };
+		8726C17B0F746AA700E5D0F8 /* ml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ml.h; path = Libraries/opencv/ml.h; sourceTree = "<group>"; };
+		8726C1A70F746EB500E5D0F8 /* UIDeviceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIDeviceAdditions.h; path = Classes/Utilities/UIDeviceAdditions.h; sourceTree = "<group>"; };
+		8726C1A80F746EB500E5D0F8 /* UIDeviceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIDeviceAdditions.m; path = Classes/Utilities/UIDeviceAdditions.m; sourceTree = "<group>"; };
+		8726C1A90F746EB500E5D0F8 /* UIImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageAdditions.h; path = Classes/Utilities/UIImageAdditions.h; sourceTree = "<group>"; };
+		8726C1AA0F746EB500E5D0F8 /* UIImageOpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageOpenCV.h; path = Classes/Utilities/UIImageOpenCV.h; sourceTree = "<group>"; };
+		8726C1AB0F746EB500E5D0F8 /* UIImageOpenCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageOpenCV.m; path = Classes/Utilities/UIImageOpenCV.m; sourceTree = "<group>"; };
+		8726C1AC0F746EB500E5D0F8 /* UIImageResizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageResizing.h; path = Classes/Utilities/UIImageResizing.h; sourceTree = "<group>"; };
+		8726C1AD0F746EB500E5D0F8 /* UIImageResizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIImageResizing.m; path = Classes/Utilities/UIImageResizing.m; sourceTree = "<group>"; };
+		8726C1D20F74700200E5D0F8 /* libstdc++.6.0.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.4.dylib"; path = "usr/lib/libstdc++.6.0.4.dylib"; sourceTree = SDKROOT; };
+		8726C2F60F7535C900E5D0F8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/Icon.png; sourceTree = "<group>"; };
+		8726C3D50F75458E00E5D0F8 /* Saving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Saving.png; path = Resources/Saving.png; sourceTree = "<group>"; };
+		8726C4690F75540800E5D0F8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8726C4C80F75BF2900E5D0F8 /* haarcascade_frontalface_alt2.xml.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; name = haarcascade_frontalface_alt2.xml.gz; path = Libraries/opencv/haarcascade_frontalface_alt2.xml.gz; sourceTree = "<group>"; };
+		8726C4CB0F75BF4700E5D0F8 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		8726C6410F75ED0C00E5D0F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8726C6430F75ED0C00E5D0F8 /* libsqlite3.0.8.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.8.6.dylib; path = usr/lib/libsqlite3.0.8.6.dylib; sourceTree = SDKROOT; };
+		8726C6480F75ED1B00E5D0F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		876782520F81A21E0025D347 /* PictureMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureMeController.h; sourceTree = "<group>"; };
+		876782530F81A21E0025D347 /* PictureMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureMeController.m; sourceTree = "<group>"; };
+		876782820F81A8060025D347 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		87BE9C5D0F6882AD0018340B /* CameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		87BE9C5E0F6882AD0018340B /* CameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				8726C17C0F746AA700E5D0F8 /* libcv.a in Frameworks */,
+				8726C17D0F746AA700E5D0F8 /* libcvaux.a in Frameworks */,
+				8726C17E0F746AA700E5D0F8 /* libcxcore.a in Frameworks */,
+				8726C1800F746AA800E5D0F8 /* libml.a in Frameworks */,
+				8726C1D30F74700200E5D0F8 /* libstdc++.6.0.4.dylib in Frameworks */,
+				8726C46A0F75540800E5D0F8 /* AudioToolbox.framework in Frameworks */,
+				8726C4CC0F75BF4700E5D0F8 /* libz.1.2.3.dylib in Frameworks */,
+				8726C6420F75ED0C00E5D0F8 /* SystemConfiguration.framework in Frameworks */,
+				8726C6440F75ED0C00E5D0F8 /* libsqlite3.0.8.6.dylib in Frameworks */,
+				8726C6490F75ED1B00E5D0F8 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* TouchCameraAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TouchCameraAppDelegate.m */,
+				87BE9C5D0F6882AD0018340B /* CameraController.h */,
+				87BE9C5E0F6882AD0018340B /* CameraController.m */,
+				876782520F81A21E0025D347 /* PictureMeController.h */,
+				876782530F81A21E0025D347 /* PictureMeController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Picture Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				8726C1A60F746EA700E5D0F8 /* Utilities */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				8726C1D20F74700200E5D0F8 /* libstdc++.6.0.4.dylib */,
+				8726C4690F75540800E5D0F8 /* AudioToolbox.framework */,
+				8726C4CB0F75BF4700E5D0F8 /* libz.1.2.3.dylib */,
+				8726C6410F75ED0C00E5D0F8 /* SystemConfiguration.framework */,
+				8726C6430F75ED0C00E5D0F8 /* libsqlite3.0.8.6.dylib */,
+				8726C6480F75ED1B00E5D0F8 /* CoreLocation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8726C1660F746A9B00E5D0F8 /* opencv */,
+				32CA4F630368D1EE00C91783 /* TouchCamera_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8726C3D50F75458E00E5D0F8 /* Saving.png */,
+				8726C2F60F7535C900E5D0F8 /* Icon.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				876782820F81A8060025D347 /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8726C1660F746A9B00E5D0F8 /* opencv */ = {
+			isa = PBXGroup;
+			children = (
+				8726C4C80F75BF2900E5D0F8 /* haarcascade_frontalface_alt2.xml.gz */,
+				8726C1680F746AA700E5D0F8 /* cv.h */,
+				8726C1690F746AA700E5D0F8 /* cvaux.h */,
+				8726C16A0F746AA700E5D0F8 /* cvaux.hpp */,
+				8726C16B0F746AA700E5D0F8 /* cvcompat.h */,
+				8726C16C0F746AA700E5D0F8 /* cvmat.hpp */,
+				8726C16D0F746AA700E5D0F8 /* cvstreams.h */,
+				8726C16E0F746AA700E5D0F8 /* cvtypes.h */,
+				8726C16F0F746AA700E5D0F8 /* cvver.h */,
+				8726C1700F746AA700E5D0F8 /* cvvidsurv.hpp */,
+				8726C1710F746AA700E5D0F8 /* cxcore.h */,
+				8726C1720F746AA700E5D0F8 /* cxcore.hpp */,
+				8726C1730F746AA700E5D0F8 /* cxerror.h */,
+				8726C1740F746AA700E5D0F8 /* cxmisc.h */,
+				8726C1750F746AA700E5D0F8 /* cxtypes.h */,
+				8726C1760F746AA700E5D0F8 /* libcv.a */,
+				8726C1770F746AA700E5D0F8 /* libcvaux.a */,
+				8726C1780F746AA700E5D0F8 /* libcxcore.a */,
+				8726C17A0F746AA700E5D0F8 /* libml.a */,
+				8726C17B0F746AA700E5D0F8 /* ml.h */,
+			);
+			name = opencv;
+			sourceTree = "<group>";
+		};
+		8726C1A60F746EA700E5D0F8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8726C1A70F746EB500E5D0F8 /* UIDeviceAdditions.h */,
+				8726C1A80F746EB500E5D0F8 /* UIDeviceAdditions.m */,
+				8726C1A90F746EB500E5D0F8 /* UIImageAdditions.h */,
+				8726C1AA0F746EB500E5D0F8 /* UIImageOpenCV.h */,
+				8726C1AB0F746EB500E5D0F8 /* UIImageOpenCV.m */,
+				8726C1AC0F746EB500E5D0F8 /* UIImageResizing.h */,
+				8726C1AD0F746EB500E5D0F8 /* UIImageResizing.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PictureMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PictureMe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PictureMe;
+			productName = TouchCamera;
+			productReference = 1D6058910D05DD3D006BFB54 /* Picture Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PictureMe" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PictureMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				8726C2F70F7535C900E5D0F8 /* Icon.png in Resources */,
+				8726C3D60F75458E00E5D0F8 /* Saving.png in Resources */,
+				8726C4C90F75BF2900E5D0F8 /* haarcascade_frontalface_alt2.xml.gz in Resources */,
+				876782830F81A8060025D347 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TouchCameraAppDelegate.m in Sources */,
+				87BE9C5F0F6882AD0018340B /* CameraController.m in Sources */,
+				8726C1B20F746EB500E5D0F8 /* UIDeviceAdditions.m in Sources */,
+				8726C1B30F746EB500E5D0F8 /* UIImageOpenCV.m in Sources */,
+				8726C1B40F746EB500E5D0F8 /* UIImageResizing.m in Sources */,
+				876782540F81A21E0025D347 /* PictureMeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jeremy Collins";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchCamera_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/opencv\"",
+					"\"$(SRCROOT)/Libraries/pinchmedia\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Picture Me";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D90E1F8C-44B6-427F-9B31-1512B2F4E318";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeremy Collins";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchCamera_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/opencv\"",
+					"\"$(SRCROOT)/Libraries/pinchmedia\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Picture Me";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ACFFDF8E-D455-45CA-A650-44F74BF8CA90";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+		870F94BA0F770AAF0011A2F9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Distribution;
+		};
+		870F94BB0F770AAF0011A2F9 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jeremy Collins";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchCamera_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libraries/opencv\"",
+					"\"$(SRCROOT)/Libraries/pinchmedia\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "Picture Me";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ACFFDF8E-D455-45CA-A650-44F74BF8CA90";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PictureMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				870F94BB0F770AAF0011A2F9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PictureMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				870F94BA0F770AAF0011A2F9 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
